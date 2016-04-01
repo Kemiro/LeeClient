@@ -1,4 +1,4 @@
-//-최종갱신 오전 11:25 2015-10-20 사크라이
+//-최종갱신 오전 10:45 2016-03-08 본서버
 //맵이름.rsw#bgm\\음악번호#
 
 //--- 통상판 마을음악
@@ -33,21 +33,28 @@ hu_in01.rsw#bgm\\93.mp3#
 //evt_xmas.rsw#bgm\\58.mp3#
 //evt_mobroom.rsw#bgm\\18.mp3#
 
+// ep16.2
+1@slw.rsw#bgm\\124.mp3#
+1@swat.rsw#bgm\\87.mp3#
+que_swat.rsw#bgm\\87.mp3#
+slabw01.rsw#bgm\\87.mp3#
+rebel_in.rsw#bgm\\86.mp3#
+
 // 교황 메모리얼 낮에나온 반달
 1@pop1.rsw#bgm\\95.mp3#
 1@pop2.rsw#bgm\\94.mp3#
 1@pop3.rsw#bgm\\138.mp3#
 
 // 신종족 도람 라자냐 마을
-lasagna.rsw#bgm\\145.mp3#
-lasa_fild01.rsw#bgm\\145.mp3#
-lasa_fild02.rsw#bgm\\145.mp3#
-lasa_dun01.rsw#bgm\\146.mp3#
-lasa_dun02.rsw#bgm\\146.mp3#
-lasa_dun03.rsw#bgm\\146.mp3#
-conch_in.rsw#bgm\\145.mp3#
-lasa_in01.rsw#bgm\\145.mp3#
-lasa_dun_q.rsw#bgm\\146.mp3#
+lasagna.rsw#bgm\\170.mp3#
+lasa_fild01.rsw#bgm\\169.mp3#
+lasa_fild02.rsw#bgm\\169.mp3#
+lasa_dun01.rsw#bgm\\168.mp3#
+lasa_dun02.rsw#bgm\\168.mp3#
+lasa_dun03.rsw#bgm\\168.mp3#
+conch_in.rsw#bgm\\170.mp3#
+lasa_in01.rsw#bgm\\170.mp3#
+lasa_dun_q.rsw#bgm\\168.mp3#
 
 //인트로 개편
 iz_int.rsw#bgm\\88.mp3#
@@ -196,11 +203,11 @@ iz_ac01_a.rsw#bgm\\26.mp3#
 iz_ac02_a.rsw#bgm\\26.mp3#
 
 //이즈루드리뉴얼
-iz_int.rsw#bgm\\26.mp3#
-iz_int01.rsw#bgm\\26.mp3#
-iz_int02.rsw#bgm\\26.mp3#
-iz_int03.rsw#bgm\\26.mp3#
-iz_int04.rsw#bgm\\26.mp3#
+//iz_int.rsw#bgm\\26.mp3#
+//iz_int01.rsw#bgm\\26.mp3#
+//iz_int02.rsw#bgm\\26.mp3#
+//iz_int03.rsw#bgm\\26.mp3#
+//iz_int04.rsw#bgm\\26.mp3#
 iz_ac01.rsw#bgm\\26.mp3#
 iz_ac02.rsw#bgm\\26.mp3#
 iz_ng01.rsw#bgm\\26.mp3#

@@ -1,4 +1,11 @@
-//-- 최종갱신 오전 11:26 2015-10-20사크라이
+//-- 최종갱신 오전 10:45 2016-03-08 본서버
+
+// ep16.2
+1@slw.rsw#베르너연구소 중추실#
+1@swat.rsw#하트헌터 군수기지#
+que_swat.rsw#하트헌터 군수기지#
+slabw01.rsw#베르너 연구소#
+rebel_in.rsw#클라나 네미에리#
 
 // 교황 메모리얼 낮에나온 반달
 1@pop1.rsw#교황 집무실#
@@ -168,11 +175,11 @@ izlude_b.rsw#위성도시 이즈루드#
 izlude_a.rsw#위성도시 이즈루드#
 
 //이즈루드리뉴얼
-iz_int.rsw#인트로#
-iz_int01.rsw#인트로#
-iz_int02.rsw#인트로#
-iz_int03.rsw#인트로#
-iz_int04.rsw#인트로#
+//iz_int.rsw#인트로#
+//iz_int01.rsw#인트로#
+//iz_int02.rsw#인트로#
+//iz_int03.rsw#인트로#
+//iz_int04.rsw#인트로#
 iz_ac01.rsw#아카데미1층#
 iz_ac02.rsw#아카데미2층#
 iz_ng01.rsw#닌자튜토리얼맵#
