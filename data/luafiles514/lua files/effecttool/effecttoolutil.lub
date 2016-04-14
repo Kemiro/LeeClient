@@ -41,7 +41,7 @@ MSG_SET_HEIGHT18 = 39
 MSG_SET_HEIGHT19 = 40
 MSG_SET_HEIGHT20 = 41
 MSG_SET_SIZE2 = 42
-MSG_SET_ZENABLE = 43
+
 function IsOpenedEmitterInfoFiles ( InfoTableName )
 	local EmitterInfoTable = _G[InfoTableName]
 	
@@ -64,31 +64,30 @@ function ReadTable( InfoTableName, effectId )
 end
 
 function ReadEmitterInfoz ( InfoTableName )
-  local EmitterInfoTable = _G[InfoTableName]
-  local version = _G[InfoTableName .. "_version"]
-  if EmitterInfoTable ~= nil then
-    for k,v in pairs(EmitterInfoTable) do
-  	SetEffectInfo( k, MSG_SET_MAXPARTICLE, v.maxcount[1] )
-        SetEffectInfo( k, MSG_SET_SPAWNDIR1, v.dir1[1], v.dir1[2], v.dir1[3] )
-        SetEffectInfo( k, MSG_SET_SPAWNDIR2, v.dir2[1], v.dir2[2], v.dir2[3] )
-        SetEffectInfo( k, MSG_SET_GRAVITY, v.gravity[1], v.gravity[2], v.gravity[3] )
-        SetEffectInfo( k, MSG_SET_EMITRADIUS, v.radius[1], v.radius[2], v.radius[3] )
-        SetEffectInfo( k, MSG_SET_COLOR, v.color[1], v.color[2], v.color[3], v.color[4] )
-        SetEffectInfo( k, MSG_SET_EMITRATE, v.rate[1], v.rate[2], v.rate[3] )
-        SetEffectInfo( k, MSG_SET_SIZE, v.size[1], v.size[2], v.size[3] )
-        SetEffectInfo( k, MSG_SET_LIFETIME, v.life[1], v.life[2], v.life[3] )
-        SetEffectInfo( k, MSG_SET_TEXTURE, v.texture )
-        SetEffectInfo( k, MSG_SET_SPEED, v.speed[1] )
-        SetEffectInfo( k, MSG_SET_SRCMODE, v.srcmode[1] )
-        SetEffectInfo( k, MSG_SET_DESTMODE, v.destmode[1] )
-      if version == 1 then
-        SetEffectInfo(k, MSG_SET_ZENABLE, v.zenable[1])
-      end
-      SetEffectInfo(k, MSG_SET_INIT)
-    end
-  end
+	local EmitterInfoTable = _G[InfoTableName]
+	
+	if EmitterInfoTable ~= nil then
+		for k, v in pairs( EmitterInfoTable ) do
+			SetEffectInfo( k, MSG_SET_MAXPARTICLE, v.maxcount[1] )
+			SetEffectInfo( k, MSG_SET_SPAWNDIR1, v.dir1[1], v.dir1[2], v.dir1[3] )
+			SetEffectInfo( k, MSG_SET_SPAWNDIR2, v.dir2[1], v.dir2[2], v.dir2[3] )
+			SetEffectInfo( k, MSG_SET_GRAVITY, v.gravity[1], v.gravity[2], v.gravity[3] )
+			--SetEffectInfo( k, MSG_SET_POS, v.pos[1], v.pos[2], v.pos[3] )
+			SetEffectInfo( k, MSG_SET_EMITRADIUS, v.radius[1], v.radius[2], v.radius[3] )
+			SetEffectInfo( k, MSG_SET_COLOR, v.color[1], v.color[2], v.color[3], v.color[4] )
+			SetEffectInfo( k, MSG_SET_EMITRATE, v.rate[1], v.rate[2], v.rate[3] )
+			SetEffectInfo( k, MSG_SET_SIZE, v.size[1], v.size[2], v.size[3] )
+			SetEffectInfo( k, MSG_SET_LIFETIME, v.life[1], v.life[2], v.life[3] )
+			SetEffectInfo( k, MSG_SET_TEXTURE, v.texture )
+			SetEffectInfo( k, MSG_SET_SPEED, v.speed[1] )
+			SetEffectInfo( k, MSG_SET_SRCMODE, v.srcmode[1] )
+			SetEffectInfo( k, MSG_SET_DESTMODE, v.destmode[1] )
+			SetEffectInfo( k, MSG_SET_INIT )
+		end
+	end
 end
 
+-- 다른 이팩트 로딩 관련 함수.
 function IsOpenedEffectFiles ( InfoTableName )
 	local EffectInfoTable = _G[InfoTableName]
 	
@@ -147,5 +146,3 @@ function ReadEffectInfoz ( InfoTableName )
 		end
 	end
 end
-
-

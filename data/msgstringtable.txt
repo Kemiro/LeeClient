@@ -2683,8 +2683,8 @@ You cannot add anymore.#
 only otp user login allow#
 When this button pressed, you will receive a specified initialized roulette item.#
 When this button pressed, the flashing arrows from the lines of the roulette wheel begins.#
-³ÆºÅ#
-Title release#
+³ÆºÅÏµÍ³#
+Ë«»÷¸ü¸Ä³ÆºÅ#
 Can't create a Guild in this area.#
 Can't disband a Guild in this area.#
 Can't join a Guild in this area.#

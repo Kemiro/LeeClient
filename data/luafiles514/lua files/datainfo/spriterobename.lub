@@ -1,4 +1,3 @@
-
 RobeNameTable = {
 	[SPRITE_ROBE_IDs.ROBE_WINGS] = "천사날개",
 	[SPRITE_ROBE_IDs.ROBE_BAG_OF_ADVENTURER] = "모험가배낭",
@@ -10,7 +9,17 @@ RobeNameTable = {
 	[SPRITE_ROBE_IDs.ROBE_RUDRA_WING] = "루드라의날개",
 	[SPRITE_ROBE_IDs.ROBE_Wing_Of_Happiness] = "행복의날개",
 	[SPRITE_ROBE_IDs.ROBE_GraetDevilWing] = "대악마날개",
-	[SPRITE_ROBE_IDs.ROBE_Cupid_Wing_Pink] = "분홍큐피트날개"
+	[SPRITE_ROBE_IDs.ROBE_Cupid_Wing_Pink] = "분홍큐피트날개",
+	[SPRITE_ROBE_IDs.ROBE_Poring_Bag] = "포링가방",
+	[SPRITE_ROBE_IDs.ROBE_Tigertail] = "tigertail",
+	[SPRITE_ROBE_IDs.ROBE_Darktail] = "darktail",
+	[SPRITE_ROBE_IDs.ROBE_Foxtail] = "foxtail",
+	[SPRITE_ROBE_IDs.ROBE_crossed_swords] = "crossed_swords",
+	[SPRITE_ROBE_IDs.ROBE_easter_basket] = "easter_basket",
+	[SPRITE_ROBE_IDs.ROBE_magic_dragon] = "magic_dragon",
+	[SPRITE_ROBE_IDs.ROBE_polar_bear_rucksack] = "polar_bear_rucksack",
+	[SPRITE_ROBE_IDs.ROBE_pumpkin_rucksack] = "pumpkin_rucksack",
+	[SPRITE_ROBE_IDs.ROBE_rainbowring_rucksack] = "rainbowring_rucksack",
 }
 RobeNameTable_Eng = {
 	[SPRITE_ROBE_IDs.ROBE_WINGS] = "ANGEL_WINGS",
@@ -23,6 +32,15 @@ RobeNameTable_Eng = {
 	[SPRITE_ROBE_IDs.ROBE_RUDRA_WING] = "Rudra_Wing",
 	[SPRITE_ROBE_IDs.ROBE_Wing_Of_Happiness] = "Wing_Of_Happiness",
 	[SPRITE_ROBE_IDs.ROBE_GraetDevilWing] = "GraetDevilWing",
-	[SPRITE_ROBE_IDs.ROBE_Cupid_Wing_Pink] = "Cupid_Wing_Pink"
+	[SPRITE_ROBE_IDs.ROBE_Cupid_Wing_Pink] = "Cupid_Wing_Pink",
+	[SPRITE_ROBE_IDs.ROBE_Poring_Bag] = "Poring_Bag",
+	[SPRITE_ROBE_IDs.ROBE_Tigertail] = "_tigertail",
+	[SPRITE_ROBE_IDs.ROBE_Darktail] = "_darktail",
+	[SPRITE_ROBE_IDs.ROBE_Foxtail] = "_foxtail",
+	[SPRITE_ROBE_IDs.ROBE_crossed_swords] = "crossed_swords",
+	[SPRITE_ROBE_IDs.ROBE_easter_basket] = "easter_basket",
+	[SPRITE_ROBE_IDs.ROBE_magic_dragon] = "magic_dragon",
+	[SPRITE_ROBE_IDs.ROBE_polar_bear_rucksack] = "polar_bear_rucksack",
+	[SPRITE_ROBE_IDs.ROBE_pumpkin_rucksack] = "pumpkin_rucksack",
+	[SPRITE_ROBE_IDs.ROBE_rainbowring_rucksack] = "rainbowring_rucksack",
 }
-
