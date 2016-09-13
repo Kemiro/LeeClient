@@ -7,9 +7,9 @@
 	<connection>
 		<display>[测试] rAthenaCN - 单机测试服</display>
 		<balloon></balloon>
-		<address>127.0.0.1</address>
-		<port>6900</port>
-		<version>53</version>
+		<address>182.92.3.239</address>
+		<port>34660</port>
+		<version>55</version>
 		<langtype>3</langtype>
 		<aid>
 		<admin>2000000</admin>
@@ -19,9 +19,9 @@
 	<connection>
 		<display>[联网] rAthenaCN - 官方演示服</display>
 		<balloon></balloon>
-		<address>game.rathena.cn</address>
+		<address>127.0.0.1</address>
 		<port>6900</port>
-		<version>53</version>
+		<version>55</version>
 		<langtype>3</langtype>
 		<aid>
 		<admin>3000000</admin>

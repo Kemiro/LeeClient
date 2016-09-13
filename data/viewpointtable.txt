@@ -1,16 +1,19 @@
-
-// range 230俊 scope 170捞 焊烹甘 汲沥
-// range_IN : 甘俊 柳涝矫 range
-
-// rotationFrom -360 , To : 360 捞 焊烹甘 汲沥
-// rotation_IN :  甘俊 柳涝矫 rotation_IN 栏肺 柳涝
-
-// altitudeFrom -50 , To : -65 捞 焊烹甘 汲沥 
-//              -25 绰 焊烹甘狼 弥措倾侩裹困
-// altitude_IN : 甘俊 柳涝矫 altitude_IN栏肺 柳涝
+// 视角锁定文件
 
 
-// 甘 捞抚 	range	scope 	range_IN	rotationFrom 	rotationTo	rotation_IN	altitudeFrom	      altitudeTo	      altitude_IN
+// range 视觉最小调整
+// scope 往上可以调整的范围
+// range_IN : 初始视角
+
+// rotationFrom rotationTo 可旋转范围   -360    到 360 可以旋转一圈视角
+// rotation_IN :  初始角度
+
+// altitudeFrom altitudeTo 水平范围   -65  正常   -25很小
+// altitude_IN : 初始水平角度
+
+
+
+// 地图名 	range	scope 	range_IN	rotationFrom 	rotationTo	rotation_IN	altitudeFrom	      altitudeTo	      altitude_IN
 //ex_map02.rsw#	250#	250#	500#		0#		90#		45#		-40#		-65#		-65#
 
 
