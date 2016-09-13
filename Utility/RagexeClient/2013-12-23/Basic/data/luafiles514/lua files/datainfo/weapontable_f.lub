@@ -1,0 +1,50 @@
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
+
+ReqWeaponName = function(index)
+	if WeaponNameTable == nil then
+		return ""
+	else
+		local NameMsg = WeaponNameTable[index]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
+		return ""
+	end
+end
+
+ReqWeaponNameByClassNum = function(classNum)
+	if classNum == nil then
+		return ""
+	else
+		local NameMsg = WeaponNameTable[classNum]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
+		return ""
+	end
+end
+
+GetRealWeaponId = function(weaponId)
+	if weaponId == nil then
+		return 0
+	else
+		local id = Expansion_Weapon_IDs[weaponId]
+		if id ~= nil then
+			return id
+		end
+		return weaponId
+	end
+end
+
+ReqWeaponHitWaveName = function(index)
+	if WeaponHitWaveNameTable == nil then
+		return ""
+	else
+		local NameMsg = WeaponHitWaveNameTable[index]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
+		return ""
+	end
+end

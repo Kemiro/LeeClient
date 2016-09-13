@@ -1,0 +1,4 @@
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
+PREMIUM_CAMPAIN_BAR_COLOR = { 255, 176, 98 }
+PREMIUM_CAMPAIN_MSG = {}
